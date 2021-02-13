@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(172, 172, 172);
+    Font-family: Century Gothic, arial, Sans-Serif
+}
+
+/* header styles*/
+header {
+    padding: 20px 35px;
+    background-color:rgb(243, 212, 233);
+}
+
+header h1 {
+    font-family: 'Poiret One', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin: 0;
+    display:inline-block
+}
+
+header a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+   margin: 0 50 px;
+   font-weight: lighter;
+   font-size: 20px;
+   padding: 20px;
+}
+
+/* About Me Styling */
+
+h2 {
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+.nancy {
+    text-align: left;
+    color: white;
+    padding: 20px;
+}
+
+#img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#tag {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+/*previous work section */
+#main-project {
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects {
+    width: 25%;
+    heigth: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3, h4   {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/*reach out styles*/
+
+.contact-block {
+    text-align: right;
+    background: white;
+}
+
+#get-in-touch {
+    color: black;
+    text-align: left;
+}
+
+.contact-info p a {
+    color: black;
+    text-align: right;
+    padding: 0 20px;
+}
+
+/*footer styles*/
+footer {
+    background:rgb(243, 212, 233);
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
